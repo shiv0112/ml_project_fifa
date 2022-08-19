@@ -61,7 +61,10 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 notebooks/database.sqlite
+<<<<<<< HEAD
 notebooks/*.csv
+=======
+>>>>>>> f9eea0db690dc93298df4529651c0ea94a9c9e0b
 
 # Flask stuff:
 instance/
