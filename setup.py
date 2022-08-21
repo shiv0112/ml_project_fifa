@@ -5,7 +5,7 @@ PROJECT_NAME="fifa-rating"
 VERSION="1.0.0"
 AUTHOR="Shivansh Srivastava"
 DESCRIPTION="THis is a full FDSD project to predict fifa overall rating"
-PACKAGES=["fifa-rating"]
+PACKAGES=["fifa_rating"]
 REQUIREMENTS_FILE_NAME="requirements.txt"
 
 def get_requirements_list() -> List[str]:
@@ -25,5 +25,3 @@ setup(
     install_requires=get_requirements_list()
 )
 
-if __name__=="__main__":
-    print(get_requirements_list())
