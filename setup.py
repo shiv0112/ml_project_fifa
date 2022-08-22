@@ -2,7 +2,7 @@ from setuptools import setup,find_packages
 from typing import List
 
 PROJECT_NAME="fifa-rating"
-VERSION="0.0.2"
+VERSION="0.0.1"
 AUTHOR="Shivansh Srivastava"
 DESCRIPTION="THis is a full FDSD project to predict fifa overall rating"
 REQUIREMENTS_FILE_NAME="requirements.txt"
@@ -16,11 +16,9 @@ def get_requirements_list() -> List[str]:
         packages = []
         for line in f:
             line = line.strip()
-            # let's also ignore empty lines and comments
-            if not line or line.startswith('#'):
+            # let's also ignore empty lines and comments and ignore -e .
+            if not line or line.startswith('#') or '-e .' in line:
                 continue
-            if '-e .' in line:
-                line = ''
             packages.append(line)
     return packages
 
