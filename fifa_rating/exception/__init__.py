@@ -1,4 +1,3 @@
-import os
 import sys
 
 class FifaException(Exception):
@@ -9,6 +8,9 @@ class FifaException(Exception):
     @staticmethod
     def get_detailed_error_message(error_message:Exception,error_detail:sys)->str:
         """
+        Description: A funtion that helps s to know where the error occured, the file name, the line number and the error message.
+        Parameters:
+        
         error_message: Exception object
         errordetail: object of sys module
         """

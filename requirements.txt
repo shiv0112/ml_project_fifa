@@ -3,4 +3,5 @@ gunicorn
 sklearn
 numpy
 pandas
+six
 -e .
