@@ -12,6 +12,7 @@ fifa_rating/artifact
 build/
 develop-eggs/
 dist/
+notebooks/
 downloads/
 eggs/
 .eggs/
