@@ -5,6 +5,6 @@ echo [$(date)]: "Activating the environment"
 source activate ./env
 echo [$(date)]: "Installing the dev env"
 pip install -r requirements.txt
-echo [$(date)]: "Installing predictions"
-source activate ./env
 echo [$(date)]: "END"
+
+echo [$(date)]: "RUN source activate ./env"

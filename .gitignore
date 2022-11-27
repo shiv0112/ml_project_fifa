@@ -9,6 +9,7 @@ __pycache__/
 *.csv
 *.sqlite
 data/
+env/
 
 # Distribution / packaging
 .Python
