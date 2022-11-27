@@ -4,7 +4,7 @@ from typing import List
 PROJECT_NAME="fifa-rating"
 VERSION="0.0.1"
 AUTHOR="Shivansh Srivastava"
-DESCRIPTION="THis is a full FDSD project to predict fifa overall rating"
+DESCRIPTION="This is a full FDSD project to predict fifa overall rating"
 REQUIREMENTS_FILE_NAME="requirements.txt"
 
 def get_requirements_list() -> List[str]:
