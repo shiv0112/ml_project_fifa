@@ -1,6 +1,4 @@
 from flask import Flask
-from fifa_rating.logger import logging
-from fifa_rating.exception import  FifaException
 import sys
 
 app=Flask(__name__)
