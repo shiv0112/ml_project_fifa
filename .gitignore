@@ -5,6 +5,13 @@ __pycache__/
 
 # C extensions
 *.so
+*.pkl
+*.csv
+*.sqlite
+data/
+env/
+
+model.pkl
 
 # Distribution / packaging
 .Python

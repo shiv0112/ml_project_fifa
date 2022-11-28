@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>Fifa Rating</title>
+<link rel="Stylesheet" href="{{ url_for('static', filename='style.css') }}">
+{% endblock %}
+
+
+{% block body %}
+<header><h2 style="text-align: center">Football Player Rating Prediction</h2></header>
+
+<form id="form" class="topBefore" action="/predict" method="POST">
+		
+  <input type="number" step="0.1" name="potential" id="potential" placeholder="Potential">
+  <input type="number" step="0.1" name="finishing" id="finishing" placeholder="Finishing">
+  <input type="number" step="0.1" name="heading_accuracy" id="heading_accuracy" placeholder="Heading Accuracy">
+  <input type="number" step="0.1" name="dribbling" id="dribbling" placeholder="Dribbling">
+  <input type="number" step="0.1" name="ball_control" id="ball_control" placeholder="Ball Control">
+  <input type="number" step="0.1" name="reactions" id="reactions" placeholder="Reactions">
+  <input type="number" step="0.1" name="shot_power" id="shot_power" placeholder="Shot Power">
+  <input type="number" step="0.1" name="strength" id="strength" placeholder="Strength">
+  <input type="number" step="0.1" name="aggression" id="aggression" placeholder="Aggression">
+  <input type="number" step="0.1" name="marking" id="marking" placeholder="Marking">
+  <input type="number" step="0.1" name="gk_diving" id="gk_diving" placeholder="Goal Keeping Dive">
+  <input type="number" step="0.1" name="gk_kicking" id="gk_kicking" placeholder="Goal Keeping Kick">
+  <input type="number" step="0.1" name="gk_positioning" id="gk_positioning" placeholder="Goal Keeping Positioning">
+  <input id="submit" type="submit" value="Predict">
+  
+</form>
+{% endblock %}

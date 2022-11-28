@@ -10,7 +10,6 @@ list_of_files = [
     "data/.gitkeep",
     "templates/.gitkeep",
     "static/.gitkeep",
-    "prediction_services/.gitkeep",
     "screenshots/.gitkeep",
     "research/EDA.ipynb",
     "init_setup.sh",
