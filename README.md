@@ -62,7 +62,7 @@ I trained this model using Random Forest:
 
 ### Data Input from user:
 
-![Alt text](https://github.com/shiv0112/ml_project_fifa/blob/master/screenshots/1.png)
+![Alt text](https://github.com/shiv0112/ml_project_fifa/raw/main/screenshots/1.png)
 ![Alt text](https://github.com/shiv0112/ml_project_fifa/blob/master/screenshots/2.png)
 
 ## Finally prediction displayed:
