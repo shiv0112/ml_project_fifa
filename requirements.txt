@@ -17,5 +17,6 @@ Werkzeug==0.16.0
 streamlit
 pandas
 statsmodels
+xgboost
 
 -e .
