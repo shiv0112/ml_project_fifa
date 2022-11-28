@@ -40,32 +40,32 @@ I trained this model using Random Forest:
 
 #### Selected features
 
-![Alt text](https://github.com/shiv0112/ml_project_fifa/blob/master/screenshots/features.png)
+![Alt text](https://github.com/shiv0112/ml_project_fifa/raw/main/screenshots/features.png)
 
 #### Metrics of all models used:
 
-![Alt text](https://github.com/shiv0112/ml_project_fifa/blob/master/screenshots/models.png)
+![Alt text](https://github.com/shiv0112/ml_project_fifa/raw/main/screenshots/models.png)
 
 #### The Accuracy of the model:
 
-![Alt text](https://github.com/shiv0112/ml_project_fifa/blob/master/screenshots/accuracy.png)
+![Alt text](https://github.com/shiv0112/ml_project_fifa/raw/main/screenshots/accuracy.png)
 
 #### The comparison of Actual value and predicted value by our model
 
-![Alt text](https://github.com/shiv0112/ml_project_fifa/blob/master/screenshots/concat.png)
-![Alt text](https://github.com/shiv0112/ml_project_fifa/blob/master/screenshots/plot.png)
+![Alt text](https://github.com/shiv0112/ml_project_fifa/raw/main/screenshots/concat.png)
+![Alt text](https://github.com/shiv0112/ml_project_fifa/raw/main/screenshots/plot.png)
 
 ### Index page of Website:
 
-![Alt text](https://github.com/shiv0112/ml_project_fifa/blob/master/screenshots/4.png)
-![Alt text](https://github.com/shiv0112/ml_project_fifa/blob/master/screenshots/5.png)
+![Alt text](https://github.com/shiv0112/ml_project_fifa/raw/main/screenshots/4.png)
+![Alt text](https://github.com/shiv0112/ml_project_fifa/raw/main/screenshots/5.png)
 
 ### Data Input from user:
 
 ![Alt text](https://github.com/shiv0112/ml_project_fifa/raw/main/screenshots/1.png)
-![Alt text](https://github.com/shiv0112/ml_project_fifa/blob/master/screenshots/2.png)
+![Alt text](https://github.com/shiv0112/ml_project_fifa/raw/main/screenshots/2.png)
 
 ## Finally prediction displayed:
 
-![Alt text](https://github.com/shiv0112/ml_project_fifa/blob/master/screenshots/3.png)
+![Alt text](https://github.com/shiv0112/ml_project_fifa/raw/main/screenshots/3.png)
 
