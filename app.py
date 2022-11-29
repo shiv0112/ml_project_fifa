@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS,cross_origin
 import numpy as np
-from pickle import load
+import joblib
 
 app=Flask(__name__)
 
@@ -31,8 +31,7 @@ def index():
 
             x_input=[potential,finishing,heading_accuracy,dribbling,ball_control,reactions,shot_power,strength,aggression,marking,gk_diving,gk_kicking,gk_positioning]
             
-            filename = 'model.pkl'
-            loaded_model = load(open(filename, 'rb')) # loading the model file
+            loaded_model = joblib.load("model.joblib")# loading the model file
             # predictions using the loaded model file
             
             prediction=loaded_model.predict([x_input])[0]
