@@ -17,6 +17,5 @@ Werkzeug==0.16.0
 pandas
 statsmodels
 xgboost
-joblib
 
 -e .
